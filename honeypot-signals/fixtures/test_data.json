@@ -1,0 +1,16 @@
+[
+  {
+    "pk": 1,
+    "model": "honeypot-signals.example",
+    "fields": {
+      "text": "Lorem ipsum..."
+    }
+  },
+  {
+    "pk": 2,
+    "model": "honeypot-signals.example",
+    "fields": {
+      "text": "Foo bar..."
+    }
+  }
+]

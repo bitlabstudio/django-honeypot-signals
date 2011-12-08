@@ -1,0 +1,3 @@
+recursive-include honeypot-signals *
+include README.rst DESCRIPTION
+exclude *.orig *.pyc *.wpr
