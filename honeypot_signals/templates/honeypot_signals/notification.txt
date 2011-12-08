@@ -1,0 +1,6 @@
+{% load url from future %}
+Review entry at http://{{ site }}{% url "admin:admin_honeypot_loginattempt_change" object.id %}
+
+Username: {{ object.username }}
+IP: {{ object.ip_address }}
+Timestamp: {{ object.timestamp }}

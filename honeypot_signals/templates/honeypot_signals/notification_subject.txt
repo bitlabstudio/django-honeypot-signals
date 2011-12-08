@@ -1,0 +1,1 @@
+[honeypot] Invalid login attempt by {{ object.username }} at {{ site }}

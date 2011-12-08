@@ -1,1 +1,8 @@
-TODO: Add long description
+* This app provides a simple signal handler for the App django-admin-honeypot *
+https://github.com/dmpayton/django-admin-honeypot
+
+Functions:
+If someone tries to login using the wrong admin url, django-admin-honeypot
+creates a new model instance, which includes all significant information about
+this attempt. After save() the signal handler sends a notification email to
+settings.MANAGERS, which includes the basic model information.

@@ -1,6 +1,6 @@
 import os
 from setuptools import setup, find_packages
-import honeypot-signals
+import honeypot_signals
 
 
 def read(fname):
@@ -11,8 +11,8 @@ def read(fname):
 
 
 setup(
-    name="honeypot-signals",
-    version=honeypot-signals.__version__,
+    name="django-honeypot-signals",
+    version=honeypot_signals.__version__,
     description=read('DESCRIPTION'),
     long_description=read('README.rst'),
     keywords='admin_honeypot, admin-honeypot, honeypot, signals, email',
@@ -21,5 +21,7 @@ setup(
     author_email='tobias.lorenz@bitmazk.com',
     url="http://www.github.com/bitmazk/django-honeypot-signals",
     include_package_data=True,
-    test_suite='honeypot-signals.tests.runtests.runtests',
+    install_requires=[
+        'django-admin-honeypot',
+    ],
 )
