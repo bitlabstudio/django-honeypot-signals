@@ -1,3 +1,10 @@
+Important
+=========
+
+This app has been discontinued and is no longer maintained.
+
+If you want to enable honeypot notifications, please take a look at the ``django-admin-honeypot`` settings: http://django-admin-honeypot.readthedocs.io/
+
 Django Admin Honeypot Signals
 ===============================
 
